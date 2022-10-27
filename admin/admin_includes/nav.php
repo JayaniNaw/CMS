@@ -46,6 +46,10 @@
                         </ul>
                     </li>
                     <li>
+                        <a href="buttons.php"><i class="fa fa-fw fa-desktop"></i> About Us</a>
+                    </li>
+                    
+                    <li>
                         <a href="./categories.php"><i class="fa fa-fw fa-desktop"></i> Categories</a>
                     </li>
                     <li>
