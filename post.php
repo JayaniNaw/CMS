@@ -49,20 +49,26 @@
 
                 <hr>
             <?php
-            
-            
                 }
-                
             ?>
 
                 <!-- Comments Form -->
                 <div class="well">
                     <h4>Leave a Comment:</h4>
-                    <form role="form">
+                    <form  action="" method ="post" role="form">
                         <div class="form-group">
-                            <textarea class="form-control" rows="3"></textarea>
+                            <label for="Author">Author</label>
+                            <input type="text" name="author" placeholder = "Author" class="form-control" rows="3"></input>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <div class="form-group">
+                             <label for="Email">Email</label>
+                            <input type="email" name="email" placeholder = "Email" class="form-control" rows="3"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="Comment">Comment</label>
+                            <textarea class="form-control" placeholder = "comment" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" name="btn_submit">Submit</button>
                     </form>
                 </div>
 
